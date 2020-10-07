@@ -19,7 +19,9 @@
 (приложение работает из под root'a. Понимаю, что это дурной тон, но у меня получилось только так)
 
 5.Чтобы зайти внутрь контейнера, введите: docker-compose -f docker-compose.prod.yml exec web bash
+
 6.Чтобы проверить работу apache, введите service --status-all или service apache2 status
+
 7.Чтобы выйти из контейнера, введите exit
 
 8.Чтобы завершить работу контейнера, введите docker-compose -f docker-compose.prod.yml down -v
