@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    margin: 10% auto 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boxChild {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxChild div{
+    margin: 10px;
+}
